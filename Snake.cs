@@ -56,6 +56,7 @@ public class Snake : MonoBehaviour
                 break;
         }
     }
+    //Rang buoc di chuyen cho con ran
     private void HandleInput()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -119,6 +120,7 @@ public class Snake : MonoBehaviour
             gridPosition= levelGrid.ValidateGridPosition(gridPosition);
 
             bool snakeAteFood = levelGrid.TrySnakeEatFood(gridPosition);
+            //Ran an moi va lon len
             if (snakeAteFood)
             {
                 snakeBodySize++;
