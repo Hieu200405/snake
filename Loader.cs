@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+//Tai cac cua so cua game
 public static class Loader 
 {
    public enum Scene
