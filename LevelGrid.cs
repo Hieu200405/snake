@@ -20,11 +20,11 @@ public class LevelGrid
     public void Setup(Snake snake)
     {
         this.snake = snake;
-        for(int i = 0; i < 10000; i++)
+        /*for(int i = 0; i < 10000; i++)
         {
             foodGameObject = new GameObject("Food", typeof(SpriteRenderer));
             foodGameObject.GetComponent<SpriteRenderer>().sprite = GameAssets.i.foodSprite;
-        }
+        }*/
         SpawnFood();
     }
     private void SpawnFood()
