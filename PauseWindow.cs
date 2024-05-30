@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
-
+//Thiet lap cua so tam dung cho game
 public class PauseWindow : MonoBehaviour
 {
     private static PauseWindow instance;
