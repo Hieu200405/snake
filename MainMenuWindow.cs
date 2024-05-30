@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
-
+//Thiet lap cua so menu chinh cho game
 public class MainMenuWindow : MonoBehaviour
 {
      private enum Sub
@@ -10,6 +10,7 @@ public class MainMenuWindow : MonoBehaviour
          Main,
          HowToPlay,
      }
+//Tim cac file da tao tren unity     
      private void Awake()
      {
          transform.Find("howToPlaySub").GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
