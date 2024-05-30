@@ -4,7 +4,7 @@ using CodeMonkey;
 using CodeMonkey.Utils;
 using UnityEngine;
 using System;
-
+//Thiet lap truy cap vào cac file hinh anh va am thanh cho game
 public class GameAssets : MonoBehaviour
 {
 
