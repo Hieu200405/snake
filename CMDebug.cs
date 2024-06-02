@@ -1,4 +1,4 @@
-//CMDebug
+// CMDebug
 using System;
 using UnityEngine;
 using CodeMonkey.Utils;
