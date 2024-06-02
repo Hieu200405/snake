@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+//Text
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace CodeMonkey.Utils {
