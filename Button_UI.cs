@@ -1,6 +1,6 @@
-//Button_UI 
-//#define SOUND_MANAGER // Has Sound_Manager in project
-//#define CURSOR_MANAGER // Has Cursor_Manager in project
+// Button_UI 
+// #define SOUND_MANAGER // Has Sound_Manager in project
+// #define CURSOR_MANAGER // Has Cursor_Manager in project
 
 using System;
 using UnityEngine;
@@ -24,7 +24,8 @@ namespace CodeMonkey.Utils {
         public Action MouseOverOnceFunc = null;
         public Action MouseOutOnceFunc = null;
         public Action MouseOverFunc = null;
-        public Action MouseOverPerSecFunc = null; //Triggers every sec if mouseOver
+        public Action MouseOverPerSecFunc = null; 
+        // Triggers every sec if mouseOver
         public Action MouseUpdate = null;
         public Action<PointerEventData> OnPointerClickFunc;
 
@@ -147,14 +148,6 @@ namespace CodeMonkey.Utils {
                 break;
             }
         }
-
-
-
-
-
-
-
-
 
         /*
          * Class for temporarily intercepting a button action
