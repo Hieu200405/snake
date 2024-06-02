@@ -1,8 +1,8 @@
-//Assets
+// Assets
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Assets cho game
+// Assets cho game
 namespace CodeMonkey {
     public class Assets : MonoBehaviour {
         private static Assets _i; 
