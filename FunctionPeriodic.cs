@@ -1,15 +1,4 @@
-/* 
-    ------------------- Code Monkey -------------------
-
-    Thank you for downloading the Code Monkey Utilities
-    I hope you find them useful in your projects
-    If you have any questions use the contact form
-    Cheers!
-
-               unitycodemonkey.com
-    --------------------------------------------------
- */
-
+// Periodic
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -44,8 +33,6 @@ namespace CodeMonkey {
                 funcList = new List<FunctionPeriodic>();
             }
         }
-
-
 
         // Persist through scene loads
         public static FunctionPeriodic Create_Global(Action action, Func<bool> testDestroy, float timer) {
@@ -90,9 +77,6 @@ namespace CodeMonkey {
             return functionPeriodic;
         }
 
-
-
-
         public static void RemoveTimer(FunctionPeriodic funcTimer) {
             funcList.Remove(funcTimer);
         }
@@ -120,9 +104,6 @@ namespace CodeMonkey {
             }
             return false;
         }
-
-
-
 
         private GameObject gameObject;
         private float timer;
