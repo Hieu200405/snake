@@ -6,9 +6,7 @@ using UnityEngine.EventSystems;
 
 namespace CodeMonkey.Utils {
     public class Button_Sprite : MonoBehaviour {
-
         private static Func<Camera> GetWorldCamera;
-
         public static void SetGetWorldCamera(Func<Camera> GetWorldCamera) {
             Button_Sprite.GetWorldCamera = GetWorldCamera;
         }
