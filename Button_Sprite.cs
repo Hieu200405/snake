@@ -1,4 +1,5 @@
-﻿using System;
+//Button_Sprite
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
@@ -165,13 +166,6 @@ namespace CodeMonkey.Utils {
                 break;
             }
         }
-
-
-
-
-
-
-
         private static Vector3 GetWorldPositionFromUI() {
             Vector3 worldPosition = GetWorldCamera().ScreenToWorldPoint(Input.mousePosition);
             return worldPosition;
