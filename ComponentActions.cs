@@ -1,4 +1,4 @@
-//Component
+// Component
 using System;
 using UnityEngine;
 
@@ -26,7 +26,6 @@ namespace CodeMonkey.Utils {
         void Update() {
             if (OnUpdate != null) OnUpdate();
         }
-
 
         public static void CreateComponent(Action OnDestroyFunc = null, Action OnEnableFunc = null, Action OnDisableFunc = null, Action OnUpdate = null) {
             GameObject gameObject = new GameObject("ComponentActions");
