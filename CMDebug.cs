@@ -1,4 +1,5 @@
-﻿using System;
+//CMDebug
+using System;
 using UnityEngine;
 using CodeMonkey.Utils;
 namespace CodeMonkey {
