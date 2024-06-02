@@ -2,6 +2,7 @@
 using System;
 using UnityEngine;
 using CodeMonkey.Utils;
+
 namespace CodeMonkey {
     public static class CMDebug {
         public static World_Sprite Button(Transform parent, Vector3 localPosition, string text, System.Action ClickFunc, int fontSize = 30, float paddingX = 5, float paddingY = 5) {
