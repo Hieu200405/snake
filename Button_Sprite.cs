@@ -11,10 +11,6 @@ namespace CodeMonkey.Utils {
             Button_Sprite.GetWorldCamera = GetWorldCamera;
         }
 
-
-
-
-
         public Action ClickFunc = null;
         public Action MouseRightDownOnceFunc = null;
         public Action MouseRightDownFunc = null;
@@ -58,9 +54,6 @@ namespace CodeMonkey.Utils {
 #if CURSOR_MANAGER
         public CursorManager.CursorType cursorMouseOver, cursorMouseOut;
 #endif
-
-
-
 
         public void SetHoverBehaviourChangeColor(Color colorOver, Color colorOut) {
             hoverBehaviourType = HoverBehaviour.Change_Color;
@@ -129,7 +122,6 @@ namespace CodeMonkey.Utils {
             }
         }
 
-
         void Awake() {
             if (GetWorldCamera == null) SetGetWorldCamera(() => Camera.main); // Set default World Camera
             posExit = transform.localPosition;
@@ -180,5 +172,4 @@ namespace CodeMonkey.Utils {
             }
         }
     }
-
 }
