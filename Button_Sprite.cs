@@ -1,4 +1,4 @@
-//Button_Sprite
+// Button_Sprite
 using System;
 using UnityEngine;
 using System.Collections.Generic;
