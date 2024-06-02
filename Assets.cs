@@ -13,7 +13,5 @@ namespace CodeMonkey {
             }
         }
         public Sprite s_White;
-
     }
-
 }
