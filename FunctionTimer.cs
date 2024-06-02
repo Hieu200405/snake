@@ -1,15 +1,4 @@
-/* 
-    ------------------- Code Monkey -------------------
-
-    Thank you for downloading the Code Monkey Utilities
-    I hope you find them useful in your projects
-    If you have any questions use the contact form
-    Cheers!
-
-               unitycodemonkey.com
-    --------------------------------------------------
- */
-
+// Timer
 using System;
 using UnityEngine;
 using System.Collections.Generic;
@@ -91,10 +80,6 @@ namespace CodeMonkey {
                 }
             }
         }
-
-
-
-
 
         private GameObject gameObject;
         private float timer;
