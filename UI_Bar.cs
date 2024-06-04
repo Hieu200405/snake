@@ -1,15 +1,3 @@
-﻿/* 
-    ------------------- Code Monkey -------------------
-
-    Thank you for downloading the Code Monkey Utilities
-    I hope you find them useful in your projects
-    If you have any questions use the contact form
-    Cheers!
-
-               unitycodemonkey.com
-    --------------------------------------------------
- */
-
 //#define TOOLTIP_UI // Has Tooltip_UI in project
 
 using System;
